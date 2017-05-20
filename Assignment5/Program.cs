@@ -23,8 +23,8 @@ namespace Assignment5
             
 
 
-            username.SendKeys("sk4yb3n@gmail.com");
-            password.SendKeys("Ikbhsiqlfg123");
+            username.SendKeys("email");
+            password.SendKeys("pass");
             loginBtn.Click();
 
             driver.Navigate().Refresh();
